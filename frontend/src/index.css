@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  width: 260px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+label {
+  color: crimson;
+  width: max-content;
+  font-size: 15px;
+  border-bottom: 2px solid brown;
+
+}
+.review{
+  font-size: 10px;
+}
+.star{
+  color:gold ;
+}
+.username{
+  font-size: 12px;
+}
+.date{
+  font-size: 10px;
+}
+form{
+  width: 260px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+input{
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 2px;
+  outline: none;
+}
+.submitbtn{
+  border: none;
+  padding: 4px;
+  border-radius: 5px;
+  color: white;
+  background-color: blue;
+  cursor: pointer;
+
+}
+.button-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.button{
+  padding: 5px;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+.logout{
+  background-color: rgb(181, 136, 224);
+}
+.login{
+  background-color: rgb(200, 124, 24);
+}
+.register{
+  background-color: rgb(88, 85, 83);
+}
